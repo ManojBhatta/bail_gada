@@ -1,0 +1,34 @@
+[0.049s] Invoking command in '/home/manoj/ros/robot_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/robot_bringup:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/ros2_livox_simulation:/home/manoj/ros/robot_ws/install/pointcloud_to_laserscan:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/livox_to_pointcloud2:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2 /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/livox_to_pointcloud2 -- -j12 -l12
+[0.480s] [35m[1mConsolidate compiler generated dependencies of target livox_to_pointcloud2_node[0m
+[0.481s] [ 50%] Built target pointcloud2_to_livox_node
+[0.481s] [100%] Built target livox_to_pointcloud2_node
+[0.490s] Invoked command in '/home/manoj/ros/robot_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/robot_bringup:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/ros2_livox_simulation:/home/manoj/ros/robot_ws/install/pointcloud_to_laserscan:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/livox_to_pointcloud2:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2 /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/livox_to_pointcloud2 -- -j12 -l12
+[0.530s] Invoking command in '/home/manoj/ros/robot_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/robot_bringup:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/ros2_livox_simulation:/home/manoj/ros/robot_ws/install/pointcloud_to_laserscan:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/livox_to_pointcloud2:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2 /usr/bin/cmake --install /home/manoj/ros/robot_ws/build/livox_to_pointcloud2
+[0.544s] -- Install configuration: ""
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/include
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/include/pointcloud2_to_livox.hpp
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/include/livox_to_pointcloud2.hpp
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/pointcloud2_to_livox_node
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/launch
+[0.544s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/launch/livox_to_pointcloud2.launch.yml
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/launch/pointcloud2_to_livox.launch.py
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/launch/livox_to_pointcloud2.launch.py
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/package_run_dependencies/livox_to_pointcloud2
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/parent_prefix_path/livox_to_pointcloud2
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.sh
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.dsv
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.sh
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.dsv
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.bash
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.sh
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.zsh
+[0.545s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.dsv
+[0.546s] -- Installing: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv
+[0.546s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/ament_index/resource_index/packages/livox_to_pointcloud2
+[0.546s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.546s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.546s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config.cmake
+[0.546s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config-version.cmake
+[0.546s] -- Up-to-date: /home/manoj/ros/robot_ws/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.xml
+[0.581s] Invoked command in '/home/manoj/ros/robot_ws/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/robot_bringup:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/ros2_livox_simulation:/home/manoj/ros/robot_ws/install/pointcloud_to_laserscan:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/livox_to_pointcloud2:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2 /usr/bin/cmake --install /home/manoj/ros/robot_ws/build/livox_to_pointcloud2

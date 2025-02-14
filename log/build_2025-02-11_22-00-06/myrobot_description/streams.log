@@ -1,0 +1,64 @@
+[0.013s] Invoking command in '/home/manoj/ros/robot_ws/build/myrobot_description': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/manoj/ros/robot_ws/src/myrobot_description -DCMAKE_INSTALL_PREFIX=/home/manoj/ros/robot_ws/install/myrobot_description
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.510s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.513s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.580s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.692s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.696s] -- Added test 'lint_cmake' to check CMake code style
+[0.699s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.716s] -- Added test 'xmllint' to check XML markup files
+[0.718s] -- Configuring done
+[0.721s] -- Generating done
+[0.722s] -- Build files have been written to: /home/manoj/ros/robot_ws/build/myrobot_description
+[0.730s] Invoked command in '/home/manoj/ros/robot_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/manoj/ros/robot_ws/src/myrobot_description -DCMAKE_INSTALL_PREFIX=/home/manoj/ros/robot_ws/install/myrobot_description
+[0.731s] Invoking command in '/home/manoj/ros/robot_ws/build/myrobot_description': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/myrobot_description -- -j12 -l12
+[0.756s] Invoked command in '/home/manoj/ros/robot_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/myrobot_description -- -j12 -l12
+[0.782s] Invoking command in '/home/manoj/ros/robot_ws/build/myrobot_description': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/manoj/ros/robot_ws/build/myrobot_description
+[0.789s] -- Install configuration: ""
+[0.789s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/meshes
+[0.789s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/meshes/blue_tyre.stl
+[0.790s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/meshes/base.stl
+[0.792s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/meshes/mid_360.stl
+[0.795s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/launch
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/launch/launch_rviz.launch.py
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/launch/rsp.launch.py
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/launch/launch_gazebo.launch.py
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/config
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/config/robot_display.rviz
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/config/mapper_params_online_async.yaml
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf
+[0.796s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/myrobot.urdf.xacro
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/properties.xacro
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/imu.urdf.xacro
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/laser.urdf.xacro
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/gazebo_control.xacro
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/robot.urdf
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/ament_index/resource_index/package_run_dependencies/myrobot_description
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/ament_index/resource_index/parent_prefix_path/myrobot_description
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.sh
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.dsv
+[0.797s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/environment/path.sh
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/environment/path.dsv
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/local_setup.bash
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/local_setup.sh
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/local_setup.zsh
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/local_setup.dsv
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/package.dsv
+[0.798s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/ament_index/resource_index/packages/myrobot_description
+[0.799s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig.cmake
+[0.799s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig-version.cmake
+[0.799s] -- Installing: /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/package.xml
+[0.800s] Invoked command in '/home/manoj/ros/robot_ws/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/manoj/ros/robot_ws/build/myrobot_description

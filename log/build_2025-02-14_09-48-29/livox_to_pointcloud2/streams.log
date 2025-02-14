@@ -1,0 +1,5 @@
+[0.079s] Invoking command in '/home/manoj/ros/robot_ws/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/livox_to_pointcloud2 -- -j12 -l12
+[0.999s] [ 50%] Built target pointcloud2_to_livox_node
+[1.000s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_to_pointcloud2_node.dir/src/livox_to_pointcloud2.cpp.o[0m
+[11.678s] [ 83%] [32m[1mLinking CXX executable livox_to_pointcloud2_node[0m
+[12.151s] [100%] Built target livox_to_pointcloud2_node

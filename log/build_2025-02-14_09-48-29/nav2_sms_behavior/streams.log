@@ -1,0 +1,67 @@
+[0.933s] Invoking command in '/home/manoj/ros/robot_ws/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/home/manoj/ros/robot_ws/install/nav2_sms_behavior
+[1.021s] -- The C compiler identification is GNU 11.4.0
+[1.121s] -- The CXX compiler identification is GNU 11.4.0
+[1.135s] -- Detecting C compiler ABI info
+[1.255s] -- Detecting C compiler ABI info - done
+[1.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.273s] -- Detecting C compile features
+[1.274s] -- Detecting C compile features - done
+[1.282s] -- Detecting CXX compiler ABI info
+[1.421s] -- Detecting CXX compiler ABI info - done
+[1.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.438s] -- Detecting CXX compile features
+[1.438s] -- Detecting CXX compile features - done
+[1.438s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.697s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.852s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.946s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.956s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.973s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.000s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.136s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.285s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.340s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.429s] -- Looking for pthread.h
+[2.520s] -- Looking for pthread.h - found
+[2.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.620s] -- Found Threads: TRUE  
+[2.709s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.767s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.793s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.869s] -- Found nav2_util: 1.1.16 (/opt/ros/humble/share/nav2_util/cmake)
+[3.123s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.126s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.126s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.201s] -- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[3.322s] -- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)
+[3.341s] -- Found nav2_behaviors: 1.1.16 (/opt/ros/humble/share/nav2_behaviors/cmake)
+[3.442s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.545s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.947s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.682s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.685s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.721s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.721s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.721s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.721s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.748s] -- Found PythonExtra: .so  
+[5.657s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.688s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.690s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.692s] -- Configured cppcheck include dirs: /home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/include
+[5.693s] -- Configured cppcheck exclude dirs and/or files: 
+[5.694s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.694s] -- Configured cpplint exclude dirs and/or files: 
+[5.694s] -- Added test 'lint_cmake' to check CMake code style
+[5.696s] -- Added test 'uncrustify' to check C / C++ code style
+[5.696s] -- Configured uncrustify additional arguments: 
+[5.696s] -- Added test 'xmllint' to check XML markup files
+[5.700s] -- Configuring done
+[5.886s] -- Generating done
+[5.892s] -- Build files have been written to: /home/manoj/ros/robot_ws/build/nav2_sms_behavior

@@ -1,0 +1,74 @@
+[0.916s] Invoking command in '/home/manoj/ros/robot_ws/src/base_pkg': PYTHONPATH=/home/manoj/ros/robot_ws/build/base_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/base_pkg build --build-base /home/manoj/ros/robot_ws/build/base_pkg/build install --record /home/manoj/ros/robot_ws/build/base_pkg/install.log --single-version-externally-managed install_data
+[1.259s] running egg_info
+[1.259s] creating ../../build/base_pkg/base_pkg.egg-info
+[1.259s] writing ../../build/base_pkg/base_pkg.egg-info/PKG-INFO
+[1.260s] writing dependency_links to ../../build/base_pkg/base_pkg.egg-info/dependency_links.txt
+[1.260s] writing entry points to ../../build/base_pkg/base_pkg.egg-info/entry_points.txt
+[1.260s] writing requirements to ../../build/base_pkg/base_pkg.egg-info/requires.txt
+[1.260s] writing top-level names to ../../build/base_pkg/base_pkg.egg-info/top_level.txt
+[1.260s] writing manifest file '../../build/base_pkg/base_pkg.egg-info/SOURCES.txt'
+[1.264s] reading manifest file '../../build/base_pkg/base_pkg.egg-info/SOURCES.txt'
+[1.265s] writing manifest file '../../build/base_pkg/base_pkg.egg-info/SOURCES.txt'
+[1.265s] running build
+[1.265s] running build_py
+[1.265s] creating /home/manoj/ros/robot_ws/build/base_pkg/build
+[1.266s] creating /home/manoj/ros/robot_ws/build/base_pkg/build/lib
+[1.266s] creating /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/0cmd_node_converter.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/odom_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/imu_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/odom_subscriber.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/cmd_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/relay_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/crc8.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/cmd_subscriber.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.266s] copying base_pkg/imu_subscriber.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.267s] copying base_pkg/__init__.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.267s] copying base_pkg/joy_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.267s] copying base_pkg/odom_cmd_serial.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.267s] copying base_pkg/0cmd_node_nav.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg
+[1.267s] running install
+[1.268s] running install_lib
+[1.269s] creating /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/0cmd_node_converter.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/odom_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/imu_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/odom_subscriber.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/cmd_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/relay_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.269s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/crc8.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/cmd_subscriber.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/imu_subscriber.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/__init__.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/joy_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/odom_cmd_serial.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/0cmd_node_nav.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg
+[1.270s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/0cmd_node_converter.py to 0cmd_node_converter.cpython-310.pyc
+[1.270s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/odom_node.py to odom_node.cpython-310.pyc
+[1.271s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/imu_node.py to imu_node.cpython-310.pyc
+[1.272s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/odom_subscriber.py to odom_subscriber.cpython-310.pyc
+[1.273s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/cmd_node.py to cmd_node.cpython-310.pyc
+[1.273s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/relay_node.py to relay_node.cpython-310.pyc
+[1.274s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/crc8.py to crc8.cpython-310.pyc
+[1.274s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/cmd_subscriber.py to cmd_subscriber.cpython-310.pyc
+[1.275s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/imu_subscriber.py to imu_subscriber.cpython-310.pyc
+[1.275s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/__init__.py to __init__.cpython-310.pyc
+[1.275s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/joy_node.py to joy_node.cpython-310.pyc
+[1.276s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/odom_cmd_serial.py to odom_cmd_serial.cpython-310.pyc
+[1.276s] byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/0cmd_node_nav.py to 0cmd_node_nav.cpython-310.pyc
+[1.277s] running install_data
+[1.277s] creating /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index
+[1.277s] creating /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index/resource_index
+[1.277s] creating /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index/resource_index/packages
+[1.277s] copying resource/base_pkg -> /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index/resource_index/packages
+[1.277s] copying package.xml -> /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg
+[1.277s] creating /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg/launch
+[1.277s] copying launch/base.launch.py -> /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg/launch
+[1.277s] copying launch/joy_cmd.launch.py -> /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg/launch
+[1.277s] running install_egg_info
+[1.278s] Copying ../../build/base_pkg/base_pkg.egg-info to /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg-1.0.0-py3.10.egg-info
+[1.279s] running install_scripts
+[1.293s] Installing cmd_node script to /home/manoj/ros/robot_ws/install/base_pkg/lib/base_pkg
+[1.293s] Installing joy_node script to /home/manoj/ros/robot_ws/install/base_pkg/lib/base_pkg
+[1.294s] writing list of installed files to '/home/manoj/ros/robot_ws/build/base_pkg/install.log'
+[1.313s] Invoked command in '/home/manoj/ros/robot_ws/src/base_pkg' returned '0': PYTHONPATH=/home/manoj/ros/robot_ws/build/base_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/base_pkg build --build-base /home/manoj/ros/robot_ws/build/base_pkg/build install --record /home/manoj/ros/robot_ws/build/base_pkg/install.log --single-version-externally-managed install_data

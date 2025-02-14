@@ -1,0 +1,44 @@
+[0.563s] Invoking command in '/home/manoj/ros/robot_ws/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/ros2_livox_simulation -- -j12 -l12
+[0.688s] [100%] Built target ros2_livox
+[0.733s] Invoked command in '/home/manoj/ros/robot_ws/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/ros2_livox_simulation -- -j12 -l12
+[0.825s] Invoking command in '/home/manoj/ros/robot_ws/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/manoj/ros/robot_ws/build/ros2_livox_simulation
+[0.842s] -- Install configuration: ""
+[0.842s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include
+[0.842s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox
+[0.842s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[0.842s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/lib/libros2_livox.so
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv
+[0.843s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[0.844s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[0.845s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[0.846s] -- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[0.846s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[0.846s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[0.846s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[0.846s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[0.846s] -- Up-to-date: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[0.885s] Invoked command in '/home/manoj/ros/robot_ws/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/manoj/ros/robot_ws/build/ros2_livox_simulation

@@ -1,0 +1,84 @@
+[0.562s] Invoking command in '/home/manoj/ros/robot_ws/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/nav2_sms_behavior -- -j12 -l12
+[0.622s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_generator_c[0m
+[0.638s] [  2%] Built target nav2_sms_behavior__cpp
+[0.638s] [ 11%] Built target nav2_sms_behavior__rosidl_generator_c
+[0.649s] [ 11%] Built target ament_cmake_python_copy_nav2_sms_behavior
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_typesupport_introspection_cpp[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_typesupport_cpp[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp[0m
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_typesupport_c[0m
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_typesupport_fastrtps_c[0m
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior__rosidl_typesupport_introspection_c[0m
+[0.688s] [ 20%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_cpp
+[0.688s] [ 29%] Built target nav2_sms_behavior__rosidl_typesupport_cpp
+[0.688s] [ 38%] Built target nav2_sms_behavior__rosidl_typesupport_c
+[0.688s] [ 47%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c
+[0.691s] [ 55%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c
+[0.697s] [ 64%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp
+[0.706s] [35m[1mConsolidate compiler generated dependencies of target nav2_sms_behavior_plugin[0m
+[0.728s] [ 64%] Built target nav2_sms_behavior
+[0.733s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior_plugin.dir/src/send_sms.cpp.o[0m
+[0.734s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior_plugin.dir/src/twilio.cpp.o[0m
+[0.763s] [ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.229s] running egg_info
+[1.230s] creating nav2_sms_behavior.egg-info
+[1.230s] writing nav2_sms_behavior.egg-info/PKG-INFO
+[1.231s] writing dependency_links to nav2_sms_behavior.egg-info/dependency_links.txt
+[1.231s] writing top-level names to nav2_sms_behavior.egg-info/top_level.txt
+[1.231s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[1.235s] reading manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[1.235s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[1.270s] [ 73%] Built target ament_cmake_python_build_nav2_sms_behavior_egg
+[1.638s] [ 73%] Built target nav2_sms_behavior__py
+[1.655s] [ 76%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_generator_py.dir/rosidl_generator_py/nav2_sms_behavior/action/_send_sms_s.c.o[0m
+[1.792s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/libnav2_sms_behavior__rosidl_generator_py.so[0m
+[1.827s] [ 79%] Built target nav2_sms_behavior__rosidl_generator_py
+[1.846s] [ 88%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_c.c.o[0m
+[1.846s] [ 88%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.846s] [ 88%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.960s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.960s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.961s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.002s] [ 97%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext
+[2.002s] [ 97%] Built target nav2_sms_behavior__rosidl_typesupport_c__pyext
+[2.002s] [ 97%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext
+[3.506s] In file included from [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/src/send_sms.cpp:8[m[K:
+[3.506s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/include/nav2_sms_behavior/send_sms.hpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[KResultStatus[m[K’ does not name a type
+[3.506s]    27 |   [01;31m[KResultStatus[m[K onRun(const std::shared_ptr<const Action::Goal> command) override;
+[3.506s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.508s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/include/nav2_sms_behavior/send_sms.hpp:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[KResultStatus[m[K’ does not name a type
+[3.508s]    29 |   [01;31m[KResultStatus[m[K onCycleUpdate() override;
+[3.508s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.508s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/include/nav2_sms_behavior/send_sms.hpp:37:14:[m[K [01;31m[Kerror: [m[K‘[01m[KCostmapInfoType[m[K’ in namespace ‘[01m[Knav2_core[m[K’ does not name a type
+[3.508s]    37 |   nav2_core::[01;31m[KCostmapInfoType[m[K getResourceInfo() override {return nav2_core::CostmapInfoType::NONE;}
+[3.508s]       |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.514s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/src/send_sms.cpp:36:1:[m[K [01;31m[Kerror: [m[K‘[01m[KResultStatus[m[K’ does not name a type
+[3.515s]    36 | [01;31m[KResultStatus[m[K SendSms::onRun(const std::shared_ptr<const Action::Goal> command)
+[3.515s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[3.516s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/src/send_sms.cpp:56:1:[m[K [01;31m[Kerror: [m[K‘[01m[KResultStatus[m[K’ does not name a type
+[3.516s]    56 | [01;31m[KResultStatus[m[K SendSms::onCycleUpdate()
+[3.516s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[3.929s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[3.929s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[3.929s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[3.929s]                  from [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/src/send_sms.cpp:63[m[K:
+[3.929s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_sms_behavior::SendSms; B = nav2_core::Behavior][m[K’:
+[3.929s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[3.929s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Knav2_sms_behavior::SendSms[m[K’
+[3.929s]   218 |     return [01;31m[Knew C[m[K;
+[3.929s]       |            [01;31m[K^~~~~[m[K
+[3.929s] In file included from [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/src/send_sms.cpp:8[m[K:
+[3.929s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/include/nav2_sms_behavior/send_sms.hpp:21:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Knav2_sms_behavior::SendSms[m[K’:
+[3.929s]    21 | class [01;36m[KSendSms[m[K : public TimedBehavior<Action>
+[3.929s]       |       [01;36m[K^~~~~~~[m[K
+[3.929s] In file included from [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/include/nav2_sms_behavior/send_sms.hpp:11[m[K,
+[3.929s]                  from [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_sms_behavior/src/send_sms.cpp:8[m[K:
+[3.929s] [01m[K/opt/ros/humble/include/nav2_behaviors/timed_behavior.hpp:76:18:[m[K [01;36m[Knote: [m[K    ‘[01m[Knav2_behaviors::Status nav2_behaviors::TimedBehavior<ActionT>::onRun(std::shared_ptr<const typename ActionT::Goal>) [with ActionT = nav2_sms_behavior::action::SendSms; typename ActionT::Goal = nav2_sms_behavior::action::SendSms_Goal_<std::allocator<void> >][m[K’
+[3.929s]    76 |   virtual Status [01;36m[KonRun[m[K(const std::shared_ptr<const typename ActionT::Goal> command) = 0;
+[3.929s]       |                  [01;36m[K^~~~~[m[K
+[3.930s] [01m[K/opt/ros/humble/include/nav2_behaviors/timed_behavior.hpp:84:18:[m[K [01;36m[Knote: [m[K    ‘[01m[Knav2_behaviors::Status nav2_behaviors::TimedBehavior<ActionT>::onCycleUpdate() [with ActionT = nav2_sms_behavior::action::SendSms][m[K’
+[3.930s]    84 |   virtual Status [01;36m[KonCycleUpdate[m[K() = 0;
+[3.930s]       |                  [01;36m[K^~~~~~~~~~~~~[m[K
+[4.933s] gmake[2]: *** [CMakeFiles/nav2_sms_behavior_plugin.dir/build.make:76: CMakeFiles/nav2_sms_behavior_plugin.dir/src/send_sms.cpp.o] Error 1
+[4.934s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/nav2_sms_behavior_plugin.dir/all] Error 2
+[4.934s] gmake: *** [Makefile:146: all] Error 2

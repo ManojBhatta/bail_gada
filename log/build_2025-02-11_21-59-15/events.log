@@ -1,0 +1,500 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (-) JobUnselected: {'identifier': 'base_pkg'}
+[0.000268] (-) JobUnselected: {'identifier': 'livox_to_pointcloud2'}
+[0.000302] (-) JobUnselected: {'identifier': 'myrobot_description'}
+[0.000328] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000359] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000384] (-) JobUnselected: {'identifier': 'transform_mid360'}
+[0.000397] (ros2_livox_simulation) JobQueued: {'identifier': 'ros2_livox_simulation', 'dependencies': OrderedDict()}
+[0.000432] (ros2_livox_simulation) JobStarted: {'identifier': 'ros2_livox_simulation'}
+[0.007434] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'cmake'}
+[0.007728] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2', '-DCMAKE_INSTALL_PREFIX=/home/manoj/ros/robot_ws/install/ros2_livox_simulation'], 'cwd': '/home/manoj/ros/robot_ws/build/ros2_livox_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'manoj'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/manoj/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manoj/ros/ws_livox/install/fast_lio/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/'), ('HOME', '/home/manoj'), ('TERMINFO', '/home/manoj/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/manoj/ros/ws_livox'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/manoj/.local/kitty.app/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bho_NP'), ('KITTY_PID', '71379'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1913'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71379'), ('COLCON_PREFIX_PATH', '/home/manoj/ros/ws_livox/install:/home/manoj/ros/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'manoj'), ('WINDOWID', '37748750'), ('JOURNAL_STREAM', '8:15893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('KITTY_PUBLIC_KEY', '1:!g<gj@{Uif->$<@q210yhF2;;vI$eSrWBCz!b><?'), ('USERNAME', 'manoj'), ('STM32_PRG_PATH', '/home/manoj/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-kitty'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/manoj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/manoj/.local/bin'), ('SESSION_MANAGER', 'local/manogion:@/tmp/.ICE-unix/1713,unix/manogion:/tmp/.ICE-unix/1713'), ('INVOCATION_ID', '597a4a13af814606923d0ee20ad84d1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bho_NP'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manoj/ros/robot_ws/build/ros2_livox_simulation'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manoj/ros/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/manoj/ros/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('MANPATH', '/home/manoj/.local/kitty.app/share/man:'), ('GAZEBO_VERSION', 'fortress'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description')]), 'shell': False}
+[0.046631] (ros2_livox_simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.089364] (ros2_livox_simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.097604] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099661] (-) TimerEvent: {}
+[0.171316] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181237] (ros2_livox_simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181475] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.182071] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.185694] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199789] (-) TimerEvent: {}
+[0.245545] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253054] (ros2_livox_simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.253301] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.253730] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.255817] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299878] (-) TimerEvent: {}
+[0.400105] (-) TimerEvent: {}
+[0.422762] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500200] (-) TimerEvent: {}
+[0.508327] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.543468] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.546904] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.552966] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.561821] (ros2_livox_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.573562] (ros2_livox_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600272] (-) TimerEvent: {}
+[0.606193] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.608054] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.666713] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.686739] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700346] (-) TimerEvent: {}
+[0.717409] (ros2_livox_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.723380] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.770756] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.771144] (ros2_livox_simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800448] (-) TimerEvent: {}
+[0.846726] (ros2_livox_simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.848149] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900515] (-) TimerEvent: {}
+[0.903737] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[0.908377] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.909295] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.917859] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.981758] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.000601] (-) TimerEvent: {}
+[1.012427] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.025311] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.046029] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.056240] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.059583] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.064004] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.064995] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.065305] (ros2_livox_simulation) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.068630] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.076157] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.095384] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.100428] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.100656] (-) TimerEvent: {}
+[1.109298] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.113742] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.113907] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.117834] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.117914] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.121747] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.121861] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.125896] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.125971] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.129782] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.129857] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.133578] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.200740] (-) TimerEvent: {}
+[1.221392] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.223007] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.223389] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.236075] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.244070] (ros2_livox_simulation) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.247281] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.255168] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.276438] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.280050] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.287496] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.300819] (-) TimerEvent: {}
+[1.307537] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.309261] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.309592] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.323795] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.327355] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.335265] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.355618] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.357289] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.357536] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.357694] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.358427] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.359454] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.367287] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.367629] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.369257] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.369563] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.369927] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.371895] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.372220] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.400908] (-) TimerEvent: {}
+[1.422038] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.428302] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.436917] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.465452] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.471743] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.484886] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.500993] (-) TimerEvent: {}
+[1.519054] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.519660] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.520316] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.520931] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.524974] (ros2_livox_simulation) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.525439] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.539258] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.572631] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.578262] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.601085] (-) TimerEvent: {}
+[1.617504] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.701180] (-) TimerEvent: {}
+[1.712866] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.722793] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/manoj/ros/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[1.778391] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.786202] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.801253] (-) TimerEvent: {}
+[1.806030] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.806220] (ros2_livox_simulation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.824649] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.833507] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.859370] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.859568] (ros2_livox_simulation) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.901353] (-) TimerEvent: {}
+[2.001625] (-) TimerEvent: {}
+[2.101971] (-) TimerEvent: {}
+[2.202342] (-) TimerEvent: {}
+[2.302602] (-) TimerEvent: {}
+[2.402821] (-) TimerEvent: {}
+[2.503095] (-) TimerEvent: {}
+[2.603378] (-) TimerEvent: {}
+[2.690162] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.698728] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.703436] (-) TimerEvent: {}
+[2.721532] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.722271] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.755133] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.803533] (-) TimerEvent: {}
+[2.871416] (ros2_livox_simulation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.875631] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.879737] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.903600] (-) TimerEvent: {}
+[2.986423] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.003683] (-) TimerEvent: {}
+[3.103835] (-) TimerEvent: {}
+[3.122328] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.203945] (-) TimerEvent: {}
+[3.288750] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.289386] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.290068] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.290731] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.291409] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.292110] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.292422] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.292632] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.293363] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.294104] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.294835] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.295556] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.296400] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.297237] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.298107] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.298890] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.299692] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.300452] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.301325] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.302033] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.302704] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.303006] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.303375] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.303991] (-) TimerEvent: {}
+[3.304167] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.305083] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.320291] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono \n'}
+[3.326780] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.404085] (-) TimerEvent: {}
+[3.477119] (ros2_livox_simulation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.479712] (ros2_livox_simulation) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.480407] (ros2_livox_simulation) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/include\n'}
+[3.480489] (ros2_livox_simulation) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.482668] (ros2_livox_simulation) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.482739] (ros2_livox_simulation) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.483726] (ros2_livox_simulation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.486239] (ros2_livox_simulation) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.486310] (ros2_livox_simulation) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.486783] (ros2_livox_simulation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.488794] (ros2_livox_simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.504150] (-) TimerEvent: {}
+[3.520403] (ros2_livox_simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[3.524209] (ros2_livox_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/manoj/ros/robot_ws/build/ros2_livox_simulation\n'}
+[3.540443] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[3.541757] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'build'}
+[3.542131] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/manoj/ros/robot_ws/build/ros2_livox_simulation', '--', '-j12', '-l12'], 'cwd': '/home/manoj/ros/robot_ws/build/ros2_livox_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'manoj'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/manoj/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manoj/ros/ws_livox/install/fast_lio/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/'), ('HOME', '/home/manoj'), ('TERMINFO', '/home/manoj/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/manoj/ros/ws_livox'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/manoj/.local/kitty.app/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bho_NP'), ('KITTY_PID', '71379'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1913'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71379'), ('COLCON_PREFIX_PATH', '/home/manoj/ros/ws_livox/install:/home/manoj/ros/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'manoj'), ('WINDOWID', '37748750'), ('JOURNAL_STREAM', '8:15893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('KITTY_PUBLIC_KEY', '1:!g<gj@{Uif->$<@q210yhF2;;vI$eSrWBCz!b><?'), ('USERNAME', 'manoj'), ('STM32_PRG_PATH', '/home/manoj/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-kitty'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/manoj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/manoj/.local/bin'), ('SESSION_MANAGER', 'local/manogion:@/tmp/.ICE-unix/1713,unix/manogion:/tmp/.ICE-unix/1713'), ('INVOCATION_ID', '597a4a13af814606923d0ee20ad84d1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bho_NP'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manoj/ros/robot_ws/build/ros2_livox_simulation'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manoj/ros/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/manoj/ros/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('MANPATH', '/home/manoj/.local/kitty.app/share/man:'), ('GAZEBO_VERSION', 'fortress'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description')]), 'shell': False}
+[3.579091] (ros2_livox_simulation) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o\x1b[0m\n'}
+[3.579222] (ros2_livox_simulation) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o\x1b[0m\n'}
+[3.604241] (-) TimerEvent: {}
+[3.704458] (-) TimerEvent: {}
+[3.804720] (-) TimerEvent: {}
+[3.904983] (-) TimerEvent: {}
+[4.005243] (-) TimerEvent: {}
+[4.105512] (-) TimerEvent: {}
+[4.205786] (-) TimerEvent: {}
+[4.306067] (-) TimerEvent: {}
+[4.406330] (-) TimerEvent: {}
+[4.506588] (-) TimerEvent: {}
+[4.606880] (-) TimerEvent: {}
+[4.707205] (-) TimerEvent: {}
+[4.807472] (-) TimerEvent: {}
+[4.907741] (-) TimerEvent: {}
+[5.008019] (-) TimerEvent: {}
+[5.108316] (-) TimerEvent: {}
+[5.208582] (-) TimerEvent: {}
+[5.308853] (-) TimerEvent: {}
+[5.409117] (-) TimerEvent: {}
+[5.509385] (-) TimerEvent: {}
+[5.609663] (-) TimerEvent: {}
+[5.709945] (-) TimerEvent: {}
+[5.810216] (-) TimerEvent: {}
+[5.910489] (-) TimerEvent: {}
+[6.010754] (-) TimerEvent: {}
+[6.111008] (-) TimerEvent: {}
+[6.211275] (-) TimerEvent: {}
+[6.311533] (-) TimerEvent: {}
+[6.411805] (-) TimerEvent: {}
+[6.512059] (-) TimerEvent: {}
+[6.597148] (ros2_livox_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/include/ros2_livox/livox_points_plugin.h:14\x1b[m\x1b[K,\n'}
+[6.597347] (ros2_livox_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:12\x1b[m\x1b[K:\n'}
+[6.597453] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.597569] (ros2_livox_simulation) StderrLine: {'line': b'   47 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[6.597662] (ros2_livox_simulation) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.612164] (-) TimerEvent: {}
+[6.712433] (-) TimerEvent: {}
+[6.812700] (-) TimerEvent: {}
+[6.912973] (-) TimerEvent: {}
+[7.013237] (-) TimerEvent: {}
+[7.113517] (-) TimerEvent: {}
+[7.213815] (-) TimerEvent: {}
+[7.314083] (-) TimerEvent: {}
+[7.414389] (-) TimerEvent: {}
+[7.514654] (-) TimerEvent: {}
+[7.614945] (-) TimerEvent: {}
+[7.715240] (-) TimerEvent: {}
+[7.815505] (-) TimerEvent: {}
+[7.915789] (-) TimerEvent: {}
+[8.016080] (-) TimerEvent: {}
+[8.116347] (-) TimerEvent: {}
+[8.216639] (-) TimerEvent: {}
+[8.316915] (-) TimerEvent: {}
+[8.417177] (-) TimerEvent: {}
+[8.517428] (-) TimerEvent: {}
+[8.617677] (-) TimerEvent: {}
+[8.717949] (-) TimerEvent: {}
+[8.818212] (-) TimerEvent: {}
+[8.918461] (-) TimerEvent: {}
+[9.018689] (-) TimerEvent: {}
+[9.118962] (-) TimerEvent: {}
+[9.219183] (-) TimerEvent: {}
+[9.319441] (-) TimerEvent: {}
+[9.419691] (-) TimerEvent: {}
+[9.519939] (-) TimerEvent: {}
+[9.620203] (-) TimerEvent: {}
+[9.720464] (-) TimerEvent: {}
+[9.820723] (-) TimerEvent: {}
+[9.920992] (-) TimerEvent: {}
+[10.021251] (-) TimerEvent: {}
+[10.121486] (-) TimerEvent: {}
+[10.221708] (-) TimerEvent: {}
+[10.321984] (-) TimerEvent: {}
+[10.422254] (-) TimerEvent: {}
+[10.522521] (-) TimerEvent: {}
+[10.622814] (-) TimerEvent: {}
+[10.723068] (-) TimerEvent: {}
+[10.823296] (-) TimerEvent: {}
+[10.923567] (-) TimerEvent: {}
+[10.949832] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::physics::LivoxOdeMultiRayShape::Init()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.949962] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:191:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KyawAngle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950073] (ros2_livox_simulation) StderrLine: {'line': b'  191 |     double \x1b[01;35m\x1b[KyawAngle\x1b[m\x1b[K, pitchAngle;\n'}
+[10.950124] (ros2_livox_simulation) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.950170] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:191:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KpitchAngle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950218] (ros2_livox_simulation) StderrLine: {'line': b'  191 |     double yawAngle, \x1b[01;35m\x1b[KpitchAngle\x1b[m\x1b[K;\n'}
+[10.950263] (ros2_livox_simulation) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.950306] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:193:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KyDiff\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950352] (ros2_livox_simulation) StderrLine: {'line': b'  193 |     double \x1b[01;35m\x1b[KyDiff\x1b[m\x1b[K;\n'}
+[10.950403] (ros2_livox_simulation) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.950445] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:195:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KhorzSamples\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950489] (ros2_livox_simulation) StderrLine: {'line': b'  195 |     int \x1b[01;35m\x1b[KhorzSamples\x1b[m\x1b[K = 1;\n'}
+[10.950530] (ros2_livox_simulation) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.950576] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:198:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KpDiff\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950619] (ros2_livox_simulation) StderrLine: {'line': b'  198 |     double \x1b[01;35m\x1b[KpDiff\x1b[m\x1b[K = 0;\n'}
+[10.950660] (ros2_livox_simulation) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.950702] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:199:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KvertSamples\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950746] (ros2_livox_simulation) StderrLine: {'line': b'  199 |     int \x1b[01;35m\x1b[KvertSamples\x1b[m\x1b[K = 1;\n'}
+[10.950836] (ros2_livox_simulation) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.950879] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:203:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KminRange\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950927] (ros2_livox_simulation) StderrLine: {'line': b'  203 |     double \x1b[01;35m\x1b[KminRange\x1b[m\x1b[K, maxRange;\n'}
+[10.950968] (ros2_livox_simulation) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.951008] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:203:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KmaxRange\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.951055] (ros2_livox_simulation) StderrLine: {'line': b'  203 |     double minRange, \x1b[01;35m\x1b[KmaxRange\x1b[m\x1b[K;\n'}
+[10.951095] (ros2_livox_simulation) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.023687] (-) TimerEvent: {}
+[11.123968] (-) TimerEvent: {}
+[11.224228] (-) TimerEvent: {}
+[11.324490] (-) TimerEvent: {}
+[11.424750] (-) TimerEvent: {}
+[11.525019] (-) TimerEvent: {}
+[11.625276] (-) TimerEvent: {}
+[11.725544] (-) TimerEvent: {}
+[11.825817] (-) TimerEvent: {}
+[11.926070] (-) TimerEvent: {}
+[12.026295] (-) TimerEvent: {}
+[12.126559] (-) TimerEvent: {}
+[12.226825] (-) TimerEvent: {}
+[12.327085] (-) TimerEvent: {}
+[12.427350] (-) TimerEvent: {}
+[12.527613] (-) TimerEvent: {}
+[12.627880] (-) TimerEvent: {}
+[12.728136] (-) TimerEvent: {}
+[12.828388] (-) TimerEvent: {}
+[12.928640] (-) TimerEvent: {}
+[13.028908] (-) TimerEvent: {}
+[13.129174] (-) TimerEvent: {}
+[13.229435] (-) TimerEvent: {}
+[13.329698] (-) TimerEvent: {}
+[13.429987] (-) TimerEvent: {}
+[13.530246] (-) TimerEvent: {}
+[13.630500] (-) TimerEvent: {}
+[13.730757] (-) TimerEvent: {}
+[13.831026] (-) TimerEvent: {}
+[13.931292] (-) TimerEvent: {}
+[14.031556] (-) TimerEvent: {}
+[14.131821] (-) TimerEvent: {}
+[14.232077] (-) TimerEvent: {}
+[14.332323] (-) TimerEvent: {}
+[14.432594] (-) TimerEvent: {}
+[14.532936] (-) TimerEvent: {}
+[14.633178] (-) TimerEvent: {}
+[14.733404] (-) TimerEvent: {}
+[14.833663] (-) TimerEvent: {}
+[14.933932] (-) TimerEvent: {}
+[15.034199] (-) TimerEvent: {}
+[15.134462] (-) TimerEvent: {}
+[15.234735] (-) TimerEvent: {}
+[15.335018] (-) TimerEvent: {}
+[15.435282] (-) TimerEvent: {}
+[15.535544] (-) TimerEvent: {}
+[15.635843] (-) TimerEvent: {}
+[15.656473] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::LivoxPointsPlugin::OnNewLaserScans()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.656695] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:214:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.656801] (ros2_livox_simulation) StderrLine: {'line': b'  214 |         sensor_msgs::\x1b[01;35m\x1b[KconvertPointCloudToPointCloud2\x1b[m\x1b[K(cloud, cloud2);\n'}
+[15.656886] (ros2_livox_simulation) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.656961] (ros2_livox_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/include/ros2_livox/livox_points_plugin.h:14\x1b[m\x1b[K,\n'}
+[15.657034] (ros2_livox_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:12\x1b[m\x1b[K:\n'}
+[15.657107] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[15.657178] (ros2_livox_simulation) StderrLine: {'line': b'   81 | static inline bool \x1b[01;36m\x1b[KconvertPointCloudToPointCloud2\x1b[m\x1b[K(\n'}
+[15.657247] (ros2_livox_simulation) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.657315] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:214:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.657403] (ros2_livox_simulation) StderrLine: {'line': b'  214 |         \x1b[01;35m\x1b[Ksensor_msgs::convertPointCloudToPointCloud2(cloud, cloud2)\x1b[m\x1b[K;\n'}
+[15.657473] (ros2_livox_simulation) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.657541] (ros2_livox_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/include/ros2_livox/livox_points_plugin.h:14\x1b[m\x1b[K,\n'}
+[15.657609] (ros2_livox_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/manoj/ros/robot_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:12\x1b[m\x1b[K:\n'}
+[15.657676] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[15.657750] (ros2_livox_simulation) StderrLine: {'line': b'   81 | static inline bool \x1b[01;36m\x1b[KconvertPointCloudToPointCloud2\x1b[m\x1b[K(\n'}
+[15.657830] (ros2_livox_simulation) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.735944] (-) TimerEvent: {}
+[15.836205] (-) TimerEvent: {}
+[15.936469] (-) TimerEvent: {}
+[16.036732] (-) TimerEvent: {}
+[16.137001] (-) TimerEvent: {}
+[16.237243] (-) TimerEvent: {}
+[16.337478] (-) TimerEvent: {}
+[16.437719] (-) TimerEvent: {}
+[16.537990] (-) TimerEvent: {}
+[16.638310] (-) TimerEvent: {}
+[16.738517] (-) TimerEvent: {}
+[16.838724] (-) TimerEvent: {}
+[16.938971] (-) TimerEvent: {}
+[17.039234] (-) TimerEvent: {}
+[17.139518] (-) TimerEvent: {}
+[17.239793] (-) TimerEvent: {}
+[17.340062] (-) TimerEvent: {}
+[17.440325] (-) TimerEvent: {}
+[17.540574] (-) TimerEvent: {}
+[17.640816] (-) TimerEvent: {}
+[17.741083] (-) TimerEvent: {}
+[17.841349] (-) TimerEvent: {}
+[17.941579] (-) TimerEvent: {}
+[18.041820] (-) TimerEvent: {}
+[18.142082] (-) TimerEvent: {}
+[18.242343] (-) TimerEvent: {}
+[18.342555] (-) TimerEvent: {}
+[18.442787] (-) TimerEvent: {}
+[18.543042] (-) TimerEvent: {}
+[18.643307] (-) TimerEvent: {}
+[18.743578] (-) TimerEvent: {}
+[18.843819] (-) TimerEvent: {}
+[18.944072] (-) TimerEvent: {}
+[19.044329] (-) TimerEvent: {}
+[19.144528] (-) TimerEvent: {}
+[19.244776] (-) TimerEvent: {}
+[19.345033] (-) TimerEvent: {}
+[19.445294] (-) TimerEvent: {}
+[19.545560] (-) TimerEvent: {}
+[19.645837] (-) TimerEvent: {}
+[19.746089] (-) TimerEvent: {}
+[19.846351] (-) TimerEvent: {}
+[19.946639] (-) TimerEvent: {}
+[20.046909] (-) TimerEvent: {}
+[20.147165] (-) TimerEvent: {}
+[20.247405] (-) TimerEvent: {}
+[20.347613] (-) TimerEvent: {}
+[20.447823] (-) TimerEvent: {}
+[20.548081] (-) TimerEvent: {}
+[20.648340] (-) TimerEvent: {}
+[20.748594] (-) TimerEvent: {}
+[20.848812] (-) TimerEvent: {}
+[20.949042] (-) TimerEvent: {}
+[21.049283] (-) TimerEvent: {}
+[21.149485] (-) TimerEvent: {}
+[21.249721] (-) TimerEvent: {}
+[21.349994] (-) TimerEvent: {}
+[21.450280] (-) TimerEvent: {}
+[21.550547] (-) TimerEvent: {}
+[21.650819] (-) TimerEvent: {}
+[21.751086] (-) TimerEvent: {}
+[21.752055] (ros2_livox_simulation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros2_livox.so\x1b[0m\n'}
+[21.851202] (-) TimerEvent: {}
+[21.951415] (-) TimerEvent: {}
+[22.051638] (-) TimerEvent: {}
+[22.151882] (-) TimerEvent: {}
+[22.252154] (-) TimerEvent: {}
+[22.352362] (-) TimerEvent: {}
+[22.395580] (ros2_livox_simulation) StdoutLine: {'line': b'[100%] Built target ros2_livox\n'}
+[22.403287] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[22.422433] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'install'}
+[22.428641] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/manoj/ros/robot_ws/build/ros2_livox_simulation'], 'cwd': '/home/manoj/ros/robot_ws/build/ros2_livox_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'manoj'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/manoj/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manoj/ros/ws_livox/install/fast_lio/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/'), ('HOME', '/home/manoj'), ('TERMINFO', '/home/manoj/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/manoj/ros/ws_livox'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/manoj/.local/kitty.app/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bho_NP'), ('KITTY_PID', '71379'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1913'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71379'), ('COLCON_PREFIX_PATH', '/home/manoj/ros/ws_livox/install:/home/manoj/ros/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'manoj'), ('WINDOWID', '37748750'), ('JOURNAL_STREAM', '8:15893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('KITTY_PUBLIC_KEY', '1:!g<gj@{Uif->$<@q210yhF2;;vI$eSrWBCz!b><?'), ('USERNAME', 'manoj'), ('STM32_PRG_PATH', '/home/manoj/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-kitty'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/manoj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/manoj/.local/bin'), ('SESSION_MANAGER', 'local/manogion:@/tmp/.ICE-unix/1713,unix/manogion:/tmp/.ICE-unix/1713'), ('INVOCATION_ID', '597a4a13af814606923d0ee20ad84d1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bho_NP'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manoj/ros/robot_ws/build/ros2_livox_simulation'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manoj/ros/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/manoj/ros/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('MANPATH', '/home/manoj/.local/kitty.app/share/man:'), ('GAZEBO_VERSION', 'fortress'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description')]), 'shell': False}
+[22.434397] (ros2_livox_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.434528] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include\n'}
+[22.434633] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox\n'}
+[22.434701] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h\n'}
+[22.434792] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h\n'}
+[22.434900] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp\n'}
+[22.434949] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/lib/libros2_livox.so\n'}
+[22.436993] (ros2_livox_simulation) StdoutLine: {'line': b'-- Set runtime path of "/home/manoj/ros/robot_ws/install/ros2_livox_simulation/lib/libros2_livox.so" to ""\n'}
+[22.437081] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh\n'}
+[22.437162] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv\n'}
+[22.437261] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv\n'}
+[22.444340] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv\n'}
+[22.451666] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv\n'}
+[22.452419] (-) TimerEvent: {}
+[22.463156] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv\n'}
+[22.490750] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv\n'}
+[22.520094] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv\n'}
+[22.539919] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv\n'}
+[22.552532] (-) TimerEvent: {}
+[22.569691] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro\n'}
+[22.569910] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro\n'}
+[22.570067] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro\n'}
+[22.570206] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro\n'}
+[22.570343] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro\n'}
+[22.570479] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro\n'}
+[22.570614] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro\n'}
+[22.570749] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation\n'}
+[22.570887] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation\n'}
+[22.571024] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh\n'}
+[22.571158] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv\n'}
+[22.571293] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh\n'}
+[22.571421] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv\n'}
+[22.571551] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash\n'}
+[22.571686] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh\n'}
+[22.571824] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh\n'}
+[22.571971] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv\n'}
+[22.572107] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv\n'}
+[22.572242] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation\n'}
+[22.572366] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.572484] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake\n'}
+[22.572605] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake\n'}
+[22.572725] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/manoj/ros/robot_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml\n'}
+[22.574649] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[22.627752] (ros2_livox_simulation) JobEnded: {'identifier': 'ros2_livox_simulation', 'rc': 0}
+[22.628558] (-) EventReactorShutdown: {}

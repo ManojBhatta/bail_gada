@@ -1,0 +1,10 @@
+[0.556s] Invoking command in '/home/manoj/ros/robot_ws/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/nav2_pure_pursuit_controller -- -j12 -l12
+[0.632s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_pure_pursuit_controller.dir/src/pure_pursuit_controller.cpp.o[0m
+[0.826s] [01m[K/home/manoj/ros/robot_ws/src/navigation2_tutorials/nav2_pure_pursuit_controller/src/pure_pursuit_controller.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Knav2_core/controller_exceptions.hpp: No such file or directory
+[0.826s]    13 | #include [01;31m[K"nav2_core/controller_exceptions.hpp"[m[K
+[0.826s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.826s] compilation terminated.
+[0.831s] gmake[2]: *** [CMakeFiles/nav2_pure_pursuit_controller.dir/build.make:76: CMakeFiles/nav2_pure_pursuit_controller.dir/src/pure_pursuit_controller.cpp.o] Error 1
+[0.831s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_pure_pursuit_controller.dir/all] Error 2
+[0.831s] gmake: *** [Makefile:146: all] Error 2
+[0.856s] Invoked command in '/home/manoj/ros/robot_ws/build/nav2_pure_pursuit_controller' returned '2': CMAKE_PREFIX_PATH=/home/manoj/ros/robot_ws/install/nav2_gps_waypoint_follower_demo:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/manoj/ros/robot_ws/build/nav2_pure_pursuit_controller -- -j12 -l12

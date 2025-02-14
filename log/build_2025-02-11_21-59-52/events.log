@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000803] (-) JobUnselected: {'identifier': 'livox_to_pointcloud2'}
+[0.000849] (-) JobUnselected: {'identifier': 'myrobot_description'}
+[0.000875] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000897] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000919] (-) JobUnselected: {'identifier': 'ros2_livox_simulation'}
+[0.000940] (-) JobUnselected: {'identifier': 'transform_mid360'}
+[0.000962] (base_pkg) JobQueued: {'identifier': 'base_pkg', 'dependencies': OrderedDict()}
+[0.001000] (base_pkg) JobStarted: {'identifier': 'base_pkg'}
+[0.099760] (-) TimerEvent: {}
+[0.200012] (-) TimerEvent: {}
+[0.300260] (-) TimerEvent: {}
+[0.400498] (-) TimerEvent: {}
+[0.500723] (-) TimerEvent: {}
+[0.600967] (-) TimerEvent: {}
+[0.701228] (-) TimerEvent: {}
+[0.801492] (-) TimerEvent: {}
+[0.901829] (-) TimerEvent: {}
+[0.914993] (base_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_pkg', 'build', '--build-base', '/home/manoj/ros/robot_ws/build/base_pkg/build', 'install', '--record', '/home/manoj/ros/robot_ws/build/base_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/manoj/ros/robot_ws/src/base_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'manoj', 'LC_TIME': 'bho_NP', 'XDG_SESSION_TYPE': 'x11', 'STM32CubeMX_PATH': '/home/manoj/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/manoj/ros/ws_livox/install/fast_lio/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/:/home/manoj/ros/ws_livox/install/livox_ros_driver2/lib/', 'HOME': '/home/manoj', 'TERMINFO': '/home/manoj/.local/kitty.app/lib/kitty/terminfo', 'OLDPWD': '/home/manoj/ros/ws_livox', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/manoj/.local/kitty.app/lib/kitty', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'bho_NP', 'KITTY_PID': '71379', 'MANAGERPID': '1486', 'SYSTEMD_EXEC_PID': '1913', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '71379', 'COLCON_PREFIX_PATH': '/home/manoj/ros/ws_livox/install:/home/manoj/ros/robot_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'manoj', 'WINDOWID': '37748750', 'JOURNAL_STREAM': '8:15893', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'KITTY_PUBLIC_KEY': '1:!g<gj@{Uif->$<@q210yhF2;;vI$eSrWBCz!b><?', 'USERNAME': 'manoj', 'STM32_PRG_PATH': '/home/manoj/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin', 'TERM': 'xterm-kitty', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/manoj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/manoj/.local/bin', 'SESSION_MANAGER': 'local/manogion:@/tmp/.ICE-unix/1713,unix/manogion:/tmp/.ICE-unix/1713', 'INVOCATION_ID': '597a4a13af814606923d0ee20ad84d1a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'bho_NP', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'bho_NP', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description:/home/manoj/ros/robot_ws/install/base_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'bho_NP', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'bho_NP', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'bho_NP', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/manoj/ros/robot_ws/build/base_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manoj/ros/robot_ws/build/base_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:/home/manoj/ros/ws_livox/install/fast_lio/local/lib/python3.10/dist-packages:/home/manoj/ros/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'bho_NP', 'LC_PAPER': 'bho_NP', 'COLCON': '1', 'MANPATH': '/home/manoj/.local/kitty.app/share/man:', 'GAZEBO_VERSION': 'fortress', 'EDITOR': 'nvim', 'CMAKE_PREFIX_PATH': '/home/manoj/ros/ws_livox/install/fast_lio:/home/manoj/ros/ws_livox/install/livox_ros_driver2:/home/manoj/ros/robot_ws/install/transform_mid360:/home/manoj/ros/robot_ws/install/myrobot_description'}, 'shell': False}
+[1.001903] (-) TimerEvent: {}
+[1.102118] (-) TimerEvent: {}
+[1.202408] (-) TimerEvent: {}
+[1.259638] (base_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.260203] (base_pkg) StdoutLine: {'line': b'creating ../../build/base_pkg/base_pkg.egg-info\n'}
+[1.260422] (base_pkg) StdoutLine: {'line': b'writing ../../build/base_pkg/base_pkg.egg-info/PKG-INFO\n'}
+[1.260637] (base_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/base_pkg/base_pkg.egg-info/dependency_links.txt\n'}
+[1.260849] (base_pkg) StdoutLine: {'line': b'writing entry points to ../../build/base_pkg/base_pkg.egg-info/entry_points.txt\n'}
+[1.261002] (base_pkg) StdoutLine: {'line': b'writing requirements to ../../build/base_pkg/base_pkg.egg-info/requires.txt\n'}
+[1.261096] (base_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/base_pkg/base_pkg.egg-info/top_level.txt\n'}
+[1.261217] (base_pkg) StdoutLine: {'line': b"writing manifest file '../../build/base_pkg/base_pkg.egg-info/SOURCES.txt'\n"}
+[1.264985] (base_pkg) StdoutLine: {'line': b"reading manifest file '../../build/base_pkg/base_pkg.egg-info/SOURCES.txt'\n"}
+[1.265878] (base_pkg) StdoutLine: {'line': b"writing manifest file '../../build/base_pkg/base_pkg.egg-info/SOURCES.txt'\n"}
+[1.266092] (base_pkg) StdoutLine: {'line': b'running build\n'}
+[1.266209] (base_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.266331] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/build/base_pkg/build\n'}
+[1.266499] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/build/base_pkg/build/lib\n'}
+[1.266641] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.266729] (base_pkg) StdoutLine: {'line': b'copying base_pkg/0cmd_node_converter.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.266810] (base_pkg) StdoutLine: {'line': b'copying base_pkg/odom_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.266927] (base_pkg) StdoutLine: {'line': b'copying base_pkg/imu_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267020] (base_pkg) StdoutLine: {'line': b'copying base_pkg/odom_subscriber.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267100] (base_pkg) StdoutLine: {'line': b'copying base_pkg/cmd_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267209] (base_pkg) StdoutLine: {'line': b'copying base_pkg/relay_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267284] (base_pkg) StdoutLine: {'line': b'copying base_pkg/crc8.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267384] (base_pkg) StdoutLine: {'line': b'copying base_pkg/cmd_subscriber.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267487] (base_pkg) StdoutLine: {'line': b'copying base_pkg/imu_subscriber.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267587] (base_pkg) StdoutLine: {'line': b'copying base_pkg/__init__.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267689] (base_pkg) StdoutLine: {'line': b'copying base_pkg/joy_node.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267787] (base_pkg) StdoutLine: {'line': b'copying base_pkg/odom_cmd_serial.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.267884] (base_pkg) StdoutLine: {'line': b'copying base_pkg/0cmd_node_nav.py -> /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg\n'}
+[1.268216] (base_pkg) StdoutLine: {'line': b'running install\n'}
+[1.268592] (base_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.269645] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.269786] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/0cmd_node_converter.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.269917] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/odom_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270020] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/imu_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270139] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/odom_subscriber.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270254] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/cmd_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270336] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/relay_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270434] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/crc8.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270539] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/cmd_subscriber.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270596] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/imu_subscriber.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270657] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/__init__.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270725] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/joy_node.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270769] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/odom_cmd_serial.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.270824] (base_pkg) StdoutLine: {'line': b'copying /home/manoj/ros/robot_ws/build/base_pkg/build/lib/base_pkg/0cmd_node_nav.py -> /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg\n'}
+[1.271179] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/0cmd_node_converter.py to 0cmd_node_converter.cpython-310.pyc\n'}
+[1.271491] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/odom_node.py to odom_node.cpython-310.pyc\n'}
+[1.272370] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/imu_node.py to imu_node.cpython-310.pyc\n'}
+[1.273273] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/odom_subscriber.py to odom_subscriber.cpython-310.pyc\n'}
+[1.273743] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/cmd_node.py to cmd_node.cpython-310.pyc\n'}
+[1.274317] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/relay_node.py to relay_node.cpython-310.pyc\n'}
+[1.274542] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/crc8.py to crc8.cpython-310.pyc\n'}
+[1.275160] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/cmd_subscriber.py to cmd_subscriber.cpython-310.pyc\n'}
+[1.275545] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/imu_subscriber.py to imu_subscriber.cpython-310.pyc\n'}
+[1.276069] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.276167] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/joy_node.py to joy_node.cpython-310.pyc\n'}
+[1.276689] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/odom_cmd_serial.py to odom_cmd_serial.cpython-310.pyc\n'}
+[1.277443] (base_pkg) StdoutLine: {'line': b'byte-compiling /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg/0cmd_node_nav.py to 0cmd_node_nav.cpython-310.pyc\n'}
+[1.277775] (base_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.277842] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index\n'}
+[1.277907] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index/resource_index\n'}
+[1.277958] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index/resource_index/packages\n'}
+[1.278022] (base_pkg) StdoutLine: {'line': b'copying resource/base_pkg -> /home/manoj/ros/robot_ws/install/base_pkg/share/ament_index/resource_index/packages\n'}
+[1.278065] (base_pkg) StdoutLine: {'line': b'copying package.xml -> /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg\n'}
+[1.278127] (base_pkg) StdoutLine: {'line': b'creating /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg/launch\n'}
+[1.278172] (base_pkg) StdoutLine: {'line': b'copying launch/base.launch.py -> /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg/launch\n'}
+[1.278233] (base_pkg) StdoutLine: {'line': b'copying launch/joy_cmd.launch.py -> /home/manoj/ros/robot_ws/install/base_pkg/share/base_pkg/launch\n'}
+[1.278277] (base_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.279420] (base_pkg) StdoutLine: {'line': b'Copying ../../build/base_pkg/base_pkg.egg-info to /home/manoj/ros/robot_ws/install/base_pkg/lib/python3.10/site-packages/base_pkg-1.0.0-py3.10.egg-info\n'}
+[1.279947] (base_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.294232] (base_pkg) StdoutLine: {'line': b'Installing cmd_node script to /home/manoj/ros/robot_ws/install/base_pkg/lib/base_pkg\n'}
+[1.294466] (base_pkg) StdoutLine: {'line': b'Installing joy_node script to /home/manoj/ros/robot_ws/install/base_pkg/lib/base_pkg\n'}
+[1.294695] (base_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/manoj/ros/robot_ws/build/base_pkg/install.log'\n"}
+[1.302495] (-) TimerEvent: {}
+[1.313591] (base_pkg) CommandEnded: {'returncode': 0}
+[1.320860] (base_pkg) JobEnded: {'identifier': 'base_pkg', 'rc': 0}
+[1.321337] (-) EventReactorShutdown: {}
