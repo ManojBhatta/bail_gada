@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/manoj/ros/robot_ws/src/myrobot_description/launch"
     "/home/manoj/ros/robot_ws/src/myrobot_description/config"
     "/home/manoj/ros/robot_ws/src/myrobot_description/urdf"
+    "/home/manoj/ros/robot_ws/src/myrobot_description/worlds"
     )
 endif()
 

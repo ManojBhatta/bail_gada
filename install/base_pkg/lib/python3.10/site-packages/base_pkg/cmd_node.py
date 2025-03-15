@@ -7,8 +7,8 @@ import struct
 import serial
 from crc8 import crc8
 
-MAX_VELOCITY = 1.0
-MAX_OMEGA = 1.0
+MAX_VELOCITY = 2.0
+MAX_OMEGA = 4.0
 START_BYTE = 0xA5
 
 RED_TTL = '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A5XK3RJT-if00-port0'
@@ -78,7 +78,7 @@ class CmdNode(Node):
         data = [
             bytes(struct.pack("B", START_BYTE)),
             bytes(struct.pack("f", float(self.twist.linear.x))),
-            # bytes(struct.pack("f", float(self.twist.linear.y))),
+            bytes(struct.pack("f", float(self.twist.linear.y))),
             bytes(struct.pack("f", float(self.twist.angular.z)))]
         data = b''.join(data)
         hash = self.calc_crc(data[1:])
@@ -88,8 +88,10 @@ class CmdNode(Node):
         self.serial_port.write(data)
         self.cmd_publisher_.publish(self.twist)
 
-        self.get_logger().info('vx w: "%f  %f"' 
-            %(self.twist.linear.x, self.twist.angular.z))
+        self.get_logger().info('vx vy w: "%f %f %f"' 
+            %(self.twist.linear.x, self.twist.linear.y, self.twist.angular.z))
+        # self.get_logger().info('vx  w: "%f  %f"' 
+        #     %(self.twist.linear.x,  self.twist.angular.z))
         
     def calc_crc(self, data=[]):
         hash_func = crc8()

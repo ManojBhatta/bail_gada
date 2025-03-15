@@ -12,6 +12,8 @@
 /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/laser.urdf.xacro
 /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/gazebo_control.xacro
 /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/urdf/robot.urdf
+/home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/worlds/around_rc.world
+/home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/worlds/sim_test_world.world
 /home/manoj/ros/robot_ws/install/myrobot_description/share/ament_index/resource_index/package_run_dependencies/myrobot_description
 /home/manoj/ros/robot_ws/install/myrobot_description/share/ament_index/resource_index/parent_prefix_path/myrobot_description
 /home/manoj/ros/robot_ws/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.sh

@@ -2,6 +2,7 @@
 /home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/launch/sim_navigation.launch.py
 /home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/launch/sim_mapping.launch.py
 /home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+/home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/worlds/around_rc.world
 /home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/worlds/sim_test_world.world
 /home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/params/nav2_params.yaml
 /home/manoj/ros/robot_ws/install/robot_bringup/share/robot_bringup/params/sim_nav2_params.yaml

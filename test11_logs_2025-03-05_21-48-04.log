@@ -1,0 +1,6 @@
+Echo /Odometry
+/usr/bin/bash: line 8: ros2: command not found
+Press Enter to close this terminal...
+Echo /amcl_pose
+/usr/bin/bash: line 8: ros2: command not found
+Press Enter to close this terminal...

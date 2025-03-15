@@ -5,8 +5,8 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='base_pkg',
-            executable='cmd_node',
-            name='cmd_node'
+            executable='cmd_node_test',
+            name='cmd_node_test'
         ),
         Node(
             package='base_pkg',

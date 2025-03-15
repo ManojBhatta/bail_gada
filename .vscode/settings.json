@@ -10,5 +10,6 @@
     "cmake.sourceDirectory": "/home/manoj/ros/robot_ws/src/myrobot_description",
     "urdf-visualizer.packages": {
       "myrobot_description": "${workspaceFolder}/src/myrobot_description"
-  }
+},
+"ros.distro": "humble"
 }

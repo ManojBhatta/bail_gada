@@ -62,7 +62,7 @@ def generate_launch_description():
                 'use_sim_time': 'false',
                 'autostart': 'true',
                 'log_level': 'info',
-                'map': '/home/manoj/ictc_test1.yaml'
+                'map': '/home/manoj/testing/completemap1.yaml'
             }.items()
         ),
         

@@ -12,6 +12,7 @@ base_pkg/0cmd_node_converter.py
 base_pkg/0cmd_node_nav.py
 base_pkg/__init__.py
 base_pkg/cmd_node.py
+base_pkg/cmd_node_test.py
 base_pkg/cmd_subscriber.py
 base_pkg/crc8.py
 base_pkg/imu_node.py
@@ -23,6 +24,7 @@ base_pkg/odom_subscriber.py
 base_pkg/relay_node.py
 launch/base.launch.py
 launch/joy_cmd.launch.py
+launch/joy_cmd_p.launch.py
 resource/base_pkg
 test/test_copyright.py
 test/test_flake8.py

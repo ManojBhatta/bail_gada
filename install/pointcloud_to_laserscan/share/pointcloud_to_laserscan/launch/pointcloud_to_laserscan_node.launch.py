@@ -60,8 +60,8 @@ def generate_launch_description():
             parameters=[{
                 'input_topic': LaunchConfiguration('input_topic'),
                 'transform_tolerance': 0.01,
-                'min_height': -0.20,
-                'max_height': 0.2,
+                'min_height': -0.1,
+                'max_height': 0.20,
                 'angle_min': LaunchConfiguration('angle_min'),
                 'angle_max': LaunchConfiguration('angle_max'),
                 'angle_increment': 0.0087,

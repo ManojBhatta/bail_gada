@@ -18,7 +18,7 @@ def generate_launch_description():
     Node(
         package='tf2_ros', executable='static_transform_publisher',
         name='static_tf_pub_body_to_odom',
-        arguments=['0.0', '0', '0.0', '0.0', '0.0', '0.0', 'body', 'base_footprint'],
+        arguments=['-0.363', '0', '-0.239', '0.0', '0.0', '0.0', 'body', 'base_footprint'],
         output='screen'
 
     ),
@@ -26,7 +26,7 @@ def generate_launch_description():
         package='tf2_ros', 
         executable='static_transform_publisher',
         name='static_tf_pub_base_footprint_to_livox_frame',
-        arguments=['0.0', '0', '0.0', '0.0', '0.0', '0.0', 'base_footprint', 'livox_frame'],
+        arguments=['0.363', '0', '0.239', '0.0', '0.0', '0.0', 'base_footprint', 'livox_frame'],
         output='screen'
     ),
     Node(
