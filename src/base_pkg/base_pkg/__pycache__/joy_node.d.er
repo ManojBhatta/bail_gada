@@ -1,0 +1,25 @@
+##[pylyzer] failed /home/manoj/ros/robot_ws/src/base_pkg/base_pkg/joy_node.py 1745941837 5008
+.rclpy: Never
+
+.___v_desugar_1: Never
+.Node: Never
+.___v_desugar_2: Never
+.Joy: Never
+.pygame = pyimport "pygame"
+
+.___v_desugar_3: Never
+.fabs: Never
+.DEAD_ZONE: {0.1}
+.JoystickNode: ClassType
+.JoystickNode <: Never
+.JoystickNode.publisher_: Never
+.JoystickNode.target_id: Never
+.JoystickNode.__call__: () -> joy_node.JoystickNode
+.JoystickNode.init_joystick: (self: joy_node.JoystickNode) -> NoneType
+.JoystickNode.play: (self: joy_node.JoystickNode) -> NoneType
+
+.main: (args: Obj := Obj) -> NoneType
+
+
+
+

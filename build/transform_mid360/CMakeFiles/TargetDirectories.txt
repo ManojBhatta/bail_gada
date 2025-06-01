@@ -1,9 +1,0 @@
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/uninstall.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/transform_mid360_uninstall.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/test.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/edit_cache.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/rebuild_cache.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/list_install_components.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/install.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/install/local.dir
-/home/manoj/ros/robot_ws/build/transform_mid360/CMakeFiles/install/strip.dir

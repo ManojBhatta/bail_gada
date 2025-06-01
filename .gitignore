@@ -1,7 +1,13 @@
-.vscode
-build
-install
-log
-maps
-vids
-pcds
+# VSCode settings
+**/.vscode/
+
+# Build system files
+build/
+install/
+log/
+logs/
+
+# Data files
+maps/
+vids/
+pcds/

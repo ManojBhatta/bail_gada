@@ -1,5 +1,0 @@
-[console_scripts]
-cmd_node = base_pkg.cmd_node:main
-cmd_node_test = base_pkg.cmd_node_test:main
-joy_node = base_pkg.joy_node:main
-
