@@ -6,10 +6,11 @@ from math import fabs
 
 DEAD_ZONE = 0.1
 
+
 class JoystickNode(Node):
     def __init__(self):
-        super().__init__('joy_node')
-        self.publisher_ = self.create_publisher(Joy, '/joy', 10)
+        super().__init__("joy_node")
+        self.publisher_ = self.create_publisher(Joy, "/joy", 10)
         self.init_joystick()
         self.target_id = 0
         self.get_logger().info("joy node is running...")
@@ -52,10 +53,10 @@ class JoystickNode(Node):
             joystick_count = pygame.joystick.get_count()
             if joystick_count == 0:
                 continue
-            
+
             for joystick in joysticks.values():
                 jid = joystick.get_instance_id()
-                
+
                 if jid == self.target_id:
                     try:
                         joy_msg = Joy()
@@ -73,21 +74,47 @@ class JoystickNode(Node):
                             joystick.get_button(9),  # Option Button
                             joystick.get_button(8),  # Share Button
                             joystick.get_button(7),  # Start Button
-                            joystick.get_button(10), # Power Button
-                            joystick.get_button(11), # Button Stick Left
-                            joystick.get_button(12)  # Button Stick Right
+                            joystick.get_button(10),  # Power Button
+                            joystick.get_button(11),  # Button Stick Left
+                            joystick.get_button(12),  # Button Stick Right
                         ]
 
                         # Map axes
                         joy_msg.axes = [
-                            joystick.get_axis(0) if fabs(joystick.get_axis(0)) > DEAD_ZONE else 0.0,  # Left/Right Axis stick left
-                            joystick.get_axis(1) if fabs(joystick.get_axis(1)) > DEAD_ZONE else 0.0,  # Up/Down Axis stick left
-                            joystick.get_axis(3) if fabs(joystick.get_axis(3)) > DEAD_ZONE else 0.0,  # Left/Right Axis stick right
-                            joystick.get_axis(4) if fabs(joystick.get_axis(4)) > DEAD_ZONE else 0.0,  # Up/Down Axis stick right
-                            joystick.get_axis(2) if fabs(joystick.get_axis(2)) > DEAD_ZONE else 0.0,  # Left Trigger
-                            joystick.get_axis(5) if fabs(joystick.get_axis(5)) > DEAD_ZONE else 0.0,  # Right Trigger
-                            float(self.joystick.get_hat(0)[0]),                                       # Left/Right hat
-                            float(self.joystick.get_hat(0)[1])                                        # Down/Up hat
+                            (
+                                joystick.get_axis(0)
+                                if fabs(joystick.get_axis(0)) > DEAD_ZONE
+                                else 0.0
+                            ),  # Left/Right Axis stick left
+                            (
+                                joystick.get_axis(1)
+                                if fabs(joystick.get_axis(1)) > DEAD_ZONE
+                                else 0.0
+                            ),  # Up/Down Axis stick left
+                            (
+                                joystick.get_axis(3)
+                                if fabs(joystick.get_axis(3)) > DEAD_ZONE
+                                else 0.0
+                            ),  # Left/Right Axis stick right
+                            (
+                                joystick.get_axis(4)
+                                if fabs(joystick.get_axis(4)) > DEAD_ZONE
+                                else 0.0
+                            ),  # Up/Down Axis stick right
+                            (
+                                joystick.get_axis(2)
+                                if fabs(joystick.get_axis(2)) > DEAD_ZONE
+                                else 0.0
+                            ),  # Left Trigger
+                            (
+                                joystick.get_axis(5)
+                                if fabs(joystick.get_axis(5)) > DEAD_ZONE
+                                else 0.0
+                            ),  # Right Trigger
+                            # Left/Right hat
+                            float(self.joystick.get_hat(0)[0]),
+                            # Down/Up hat
+                            float(self.joystick.get_hat(0)[1]),
                         ]
 
                         self.publisher_.publish(joy_msg)
@@ -100,6 +127,7 @@ class JoystickNode(Node):
                         pygame.quit()
                         self.destroy_node()
 
+
 def main(args=None):
     rclpy.init(args=args)
     joy = JoystickNode()
@@ -107,5 +135,6 @@ def main(args=None):
     if rclpy.ok():
         rclpy.shutdown()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
