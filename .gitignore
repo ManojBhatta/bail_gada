@@ -11,3 +11,7 @@ logs/
 maps/
 vids/
 pcds/
+
+
+# pcds
+*.pcd
