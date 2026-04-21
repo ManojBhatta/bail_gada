@@ -5,5 +5,4 @@ Four wheeled diff drive robot
 
 
 # Demo video
-<!-- [!(demo_vid/edit2video.mp4)] -->
-<video src="demo_vid/edit2video.mp4" width="100%" autoplay loop muted></video>
+<video src="https://raw.githubusercontent.com/manojbhatta/bail_gada/main/demo_vid/edit2video.mp4" width="100%" autoplay loop muted></video>
