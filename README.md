@@ -2,3 +2,7 @@ Source code for autonmous mobile robot implementation using slam toolbox and Nav
 ### Hardware used
 Livox-mid360 lidar
 Four wheeled diff drive robot
+
+
+# Demo video
+[!(demo_vid/edit2video.mp4)]
